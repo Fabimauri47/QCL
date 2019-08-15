@@ -1,8 +1,17 @@
 # QCL
 Quantum Computing Library
+
+
 welcome to the complex calculator, you can find different opration with complex numbers.
+
+
+
 Operation with complex numbers, as:
-	addition numbers
+
+
+
+
+  addition numbers
   subtraction numbers
   multiplicaion nmbers
   division numbers
