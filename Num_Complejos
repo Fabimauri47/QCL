@@ -69,10 +69,10 @@ def main():
     print("Restar = {0} + {1}i".format(restar[0],restar[1]))
     print("Multiplicacion = {0} + {1}i".format(multiplicar[0],multiplicar[1]))
     print("Dividir = {0} + {1} i ".format(dividir[0],dividir[1]))
-    print("Modulo = {0} + {1} i ".format(modulacion[0],modulacion[1]))
-    print("Conjugado = {0} + {1} i ".format(conjugado[0],conjugado[1]))
+    print("Modulo = {0} ".format(modulacion))
+    print("Conjugado = {0} + {1} i ".format(conjugacion[0],conjugacion[1]))
     print("cartesiano_a_polar = {0} + {1} i ".format(cartesiano_polar[0],cartesiano_polar[1]))
     print("polar_a_cartesiano = {0} + {1} i ".format(polar_cartesiano[0],polar_cartesiano[1]))
-    print("Conjugado = {0} + {1} i ".format(conjugado[0],conjugado[1]))
+    print("Conjugado = {0} + {1} i ".format(conjugacion[0],conjugacion[1]))
 
 main()
