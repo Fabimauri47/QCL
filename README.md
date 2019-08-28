@@ -1,7 +1,7 @@
 # QCL
 Quantum Computing Library
 
-# CALCULATOR WITH COMPLEX NUMBERS
+# calculator with complex numbers
 
 welcome to the complex calculator, you can find different operation with complex numbers. that includes Addition, Multiplication, Subtraction, division, Modulus, Conjugation, Polar and Phase for complex number. Also you can find operation with matrix, For example you can learn about: addition with matrices, multiplication with matrices, transposed with matrices,multiplication of scale, conjugate of matrices, atttached of matrices, internal product of matrices, the regulation of matrices, multiplication with two matrix.
 
