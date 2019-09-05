@@ -3,16 +3,17 @@ Quantum Computing Library
 
 # calculator with complex numbers
 
-welcome to the complex calculator, you can find different operation with complex numbers. that includes Addition, Multiplication, Subtraction, division, Modulus, Conjugation, Polar and Phase for complex number. Also you can find operation with matrix, For example you can learn about: addition with matrices, multiplication with matrices, transposed with matrices,multiplication of scale, conjugate of matrices, atttached of matrices, internal product of matrices, the regulation of matrices, multiplication with two matrix.
+welcome to the complex calculator, you can find different operation with complex numbers. that includes Addition, Multiplication, Subtraction, division, Modulus, Conjugation, Polar and Phase for complex number. Also you can find operation with matrix, For example you can learn about: addition with matrices, multiplication with matrices, transposed with matrices,multiplication of scale, conjugate of matrices, atttached of matrices, internal product of matrices, the regulation of matrices, multiplication with two matrix, tnesor product of matrices, the distance between two vectors and also you can learn the validity if a matrix is hermitian or united. 
 
 # Objectives
 
-The objetive of this libraries, the user can access of easy way of different operation that need. Also that the user can execute with complex numbers.
+The objetive of this libraries, the user can access of easy way of different operation that need. Also that the user can execute with complex numbers and also learn operation with matrices, where you cand find 15 different types of operation with this.
 
 
 # prerequisite
 
 the calculator of complex numbers, only the user can ejecute in PYTHON 3.6.2
+the calculator of complex_matrix, only the user can ejecute in PYTHON 3.6.2
 
 
 # Installation
