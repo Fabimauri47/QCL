@@ -28,11 +28,13 @@ Fabian Mauricio Ramirez Pinto- Fabimauri47
 
 # Test with unit test
 for use the test of unit test, its necessary that follows this steps:
-1. its necessary that you dowload the archive in QHL, with name Complex number with unit test.
+1. its necessary that you dowload the archive in QHL, with name Complex number or Matriz_Complejos with unit test. If depend what program do you need.
 2. when, you dowload the document, its necessary that you identify the different funtions that find in the document and choose the operation of the funtions that you need.
 3. make the call of the funtions in the document complex numbers and run the program.
 4. you can confirm if the answers is correct or not.
 5. For test with other values, its necessary that you identify the funtions that you test and change the values that you want test.
+
+
 
 for more information you can access the next link: 
 
