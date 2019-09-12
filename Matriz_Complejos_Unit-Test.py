@@ -31,6 +31,8 @@ class TestMyModule(unittest.TestCase):
         self.assertEqual(Matriz_Complejos.matriz_hermitian([[(3,0),(7,0)],[(5,0),(8,0)]],[[(2,0),(9,0)],[(4,0),(-5,0)]]),13.228756555322953)
     def test_Producto_Tensor_Matriz(self):
         self.assertEqual(Matriz_Complejos.matriz_producto_tensor([[(1,0),(2,0)],[(0,0),(1,0)]],[[(3,0),(2,0)],[(-1,0),(0,0)]]),[[(3,0),(2,0),(6,0),(4,0)],[(-1,0),(0,0),(-2,0),(0,0)],[(0,0),(0,0),(3,0),(2,0)],[(0,0),(0,0),(-1,0),(0,0)]])
+    def test_Accion_Matriz(self):
+        self.assertEqual(Matriz_Complejos.Accion_Matriz_Vector([[(-3,0),(5,0),(-6,0)],[(7,0),(10,0),(-1,0)]],[(-6,0),(-2,0),(5,0)]),[(-22,0),(-67,0)])
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,5 +1,3 @@
-from sys import stdin
-import math
 import Num_Complejos
 
 
@@ -16,7 +14,7 @@ def Inversa_vectores(vec):
     res = []
 
     for i in range(len(vec)):
-        res.append((v[i][0]*-1, v[i][1] *-1))
+        res.append((vec[i][0]*-1, vec[i][1] *-1))
 
     return res
 
@@ -47,38 +45,35 @@ def inversa_matrices_complejas(matrix):
     return res
 
 def multiplicacionEsc_matrices_complejas(con,matrix):
-    print(con)
-    print(matrix)
+   
     res = []
 
     for i in range(len(matrix)):
-        print(matrix[i])
         res.append(MultiplicacionEsc_vectores(con,matrix[i]))
-        print(res)
+    
     return res
 
 def Transpusta_matrices(matrix):
 
     res =[]
 
-    for i in range(len(matrix)):
-        for x in range(len(matrix[i])):
-            pass 
+    for i in range(len(matrix[0])):
+        fila = []
+        for x in range(len(matrix)):
+            fila.append(matrix[x][i])
+        res.append(fila)
+    return res
 
 def matriz_conjugada(matrix):
-    filas = len(matrix)
-    columnas = len(matrix[0])
+    respuesta = []
 
-    for i in range(filas):
-        for j in range(columnas):
-            b = matrix[i][j]
-            x = b[0]
-            y = b[1]*-1
-            m = (x,y)
+    for i in range(len(matrix)):
+        Conjugado = []
+        for j in range(len(matrix[i])):
+            Conjugado.append(Num_Complejos.conjugado(matrix[i][j]))
+        respuesta.append(Conjugado)
 
-            a[i][j] = m
-
-    return matrix
+    return res
 
 def matriz_adjunta(matrix):
     matriz  = Transpusta_matrices(matrix)
@@ -95,11 +90,11 @@ def norma_matrices(matrix):
 
     return res ** 0.5
 
-def matriz_distancia(matrix1,mnatrix2):
+def matriz_distancia(matrix1,matrix2):
     res = 0
     for i in range (len(matrix1)):
         for j in range(len(matrix1[i])):
-            val = Num_Complejos.resta(matrix[i][j],matrix2[i][j])
+            val = Num_Complejos.resta(matrix1[i][j],matrix2[i][j])
             res += val[0] **2 + val[1]**2
     return res ** 0.5
     
@@ -139,6 +134,26 @@ def matriz_hermitian(matrix):
         print("The matrix A isn't a square matrix")
         return False
 
+def Accion_Matriz_Vector(matrix,vector):
+
+    res = []
+
+    if len(matrix[0]) == len(vector):
+        Suma = (0,0)
+
+        for i in range(len(matrix)):
+            for j in range(len(matrix[i])):
+                temp = Num_Complejos.multiplicacion(matrix([i][j],vector[j]))
+                Suma = Num_Complejos.suma(temp,Suma)
+
+            res.append(Suma)
+            Suma = (0,0)
+        return res
+    else:
+
+        return "Dimensiones incorrectas"
+    
+                
 def matriz_producto_tensor(matrix1,matrix2):
     filasA = len(matrix1)
     columnasA = len(matrix1[0])
