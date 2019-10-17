@@ -22,6 +22,26 @@ the calculator of complex_matrix, only the user can ejecute in PYTHON 3.6.2
 
 You can install PYTHON 3.6.2, and dowload the next link: https://www.python.org/downloads/release/python-362/
 
+
+# Simulation program from classic to quantum
+
+The system consists of a particle confined to a discrete set of positions on a line. The simulator must be able to specify the number of positions and a state ket vector by assigning amplitudes.
+
+# Classical Deterministic Systems
+
+is a system that is discrete by a graph, which is a Boolean adjacency matrix. 1. it is required that each vertex has exactly one output on a corresponding side and that each Boolean adjacency in the matrix contains exactly one. 
+2. The system has a state vertex, so it must be multiplied by the matrix and the state. 
+
+The program should allow the user to enter a Boolean matrix that describes the
+ways that marbles move. Make sure that the matrix follows our requirement. The user
+should also be permitted to enter a starting state of how many marbles are on each
+vertex. Then the user enters how many time clicks she wants to proceed. The computer
+should then calculate and output the state of the system after those time clicks.
+We will make changes to this program later in the chapter.
+
+# Probabilistic Systems
+A probabilistic (or probabilistic) system is an algorithm that bases its result on the taking of some random decisions, in such a way that, on average, it obtains a good solution to the problem posed for any distribution of input data. In other words, unlike a deterministic algorithm, different solutions can be obtained from the same data and, in some cases, erroneous solutions.
+# 
 # Authors
 
 Fabian Mauricio Ramirez Pinto- Fabimauri47
